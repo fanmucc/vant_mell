@@ -20,7 +20,7 @@ export default {
   data () {
     return {
       logo: false,
-      img: '../../assets/image/logo/F.png'
+      img: require('../../assets/image/logo/F.png')
     }
   }
 }

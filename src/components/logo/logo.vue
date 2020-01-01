@@ -1,15 +1,14 @@
 <template>
-    <div v-if="size" class="logoF">
+    <div v-if="sizes" class="logoF">
         <div class="logoBox">
             <div contenteditable="true" class="logo logoBg">Fanmu</div>
         </div>
     </div>
-    <div v-else>
+    <div v-else class="small-logo">
         <van-image
-            round
             width="30px"
             height="30px"
-            :src="img"
+            :src="imgs"
         />
     </div>
 </template>
@@ -28,7 +27,7 @@ export default {
     }
   },
   computed: {
-    logo () {
+    sizes () {
       return this.size
     },
     imgs () {
