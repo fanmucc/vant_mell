@@ -30,7 +30,16 @@ export default {
   .goods-list {
     height: 100vh;
     .header {
-      height: 7vh;
+      background: rgb(255, 255, 255);
+      height: 54px;
+      .van-col {
+        &:nth-child(1) {
+          height: 54px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
     }
   }
 </style>

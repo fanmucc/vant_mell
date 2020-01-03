@@ -1,11 +1,11 @@
 <template>
     <div class="layout-tab">
-        <van-grid clickable :column-num="5" border icon-size="20">
+        <van-grid clickable :column-num="5" center icon-size="20">
             <van-grid-item icon="home-o" text="首页" to="/" />
-            <van-grid-item icon="search" text="分类" url="/vant/mobile.html" />
-            <van-grid-item icon="search" text="消息" url="/vant/mobile.html" />
-            <van-grid-item icon="search" text="购物车" url="/vant/mobile.html" />
-            <van-grid-item icon="search" text="个人中心" url="/vant/mobile.html" />
+            <van-grid-item icon="search" text="分类" to="/classification" />
+            <van-grid-item icon="search" text="消息" to="/news" />
+            <van-grid-item icon="search" text="购物车" to="/cart" />
+            <van-grid-item icon="search" text="个人中心" to="/personal" />
         </van-grid>
     </div>
 </template>

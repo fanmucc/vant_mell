@@ -38,27 +38,4 @@ export default {
 }
 </script>
 <style lang="less">
-  //
-  .layout-search {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background: rgb(255, 255, 255);
-    .van-row {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      .van-col {
-        height: 100%;
-        &:nth-child(1) {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .van-search {
-          height: 100%;
-        }
-      }
-    }
-  }
 </style>

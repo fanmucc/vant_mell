@@ -16,12 +16,12 @@ export default {
 </script>
 <style lang="less">
   .layout {
-    height: 100vh;
+    max-height: 100vh;
     .content {
-      height: 92vh;
+      height: 90vh;
     }
     .foot {
-      height: 8vh;
+      height: 10vh;
     }
   }
 </style>
