@@ -18,10 +18,7 @@ export default {
   .layout {
     max-height: 100vh;
     .content {
-      height: 90vh;
-    }
-    .foot {
-      height: 10vh;
+      height: 92vh;
     }
   }
 </style>

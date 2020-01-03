@@ -93,7 +93,7 @@ export default {
   height: 100%;
 }
 .van-submit-bar {
-  bottom: 10vh;
+  bottom: 8vh;
 }
 .card-goods {
   padding: 10px 0;
