@@ -1,30 +1,31 @@
 <template>
-    <div>
-        <van-row>
-            <van-col span="8"><logo-img :size="logo" :img="img"/></van-col>
-            <van-col span="8">span: 8</van-col>
-            <van-col span="8">span: 8</van-col>
-        </van-row>
+    <div class="goods-list">
+      123
     </div>
 </template>
 <script>
-import logoImg from '@/components/logo'
 import { Row, Col } from 'vant'
 export default {
   name: 'goods',
   components: {
-    logoImg,
     [Row.name]: Row,
     [Col.name]: Col
   },
   data () {
     return {
-      logo: false,
-      img: require('../../assets/image/logo/F.png')
+      logo: {
+        img: require('../../assets/image/logo/F.png'),
+        width: 30,
+        height: 30,
+        href: '#'
+      }
     }
   }
 }
 </script>
 <style lang="less">
   //
+  .goods-list {
+    height: 100vh;
+  }
 </style>
