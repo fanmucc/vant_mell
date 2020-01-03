@@ -1,13 +1,15 @@
 <template>
     <div class="goods-list">
-      123
+        <layout-search class="header"></layout-search>
     </div>
 </template>
 <script>
+import layoutSearch from '@/components/search'
 import { Row, Col } from 'vant'
 export default {
   name: 'goods',
   components: {
+    layoutSearch,
     [Row.name]: Row,
     [Col.name]: Col
   },
@@ -27,5 +29,8 @@ export default {
   //
   .goods-list {
     height: 100vh;
+    .header {
+      height: 7vh;
+    }
   }
 </style>

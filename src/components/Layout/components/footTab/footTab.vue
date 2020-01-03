@@ -1,6 +1,6 @@
 <template>
     <div class="layout-tab">
-        <van-grid clickable :column-num="5" border>
+        <van-grid clickable :column-num="5" border icon-size="20">
             <van-grid-item icon="home-o" text="首页" to="/" />
             <van-grid-item icon="search" text="分类" url="/vant/mobile.html" />
             <van-grid-item icon="search" text="消息" url="/vant/mobile.html" />
